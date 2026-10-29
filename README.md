@@ -64,5 +64,122 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Axle is a company surfaced via the API Evangelist harvest backlog (source: vc-portfolio; backed by gradient-ventures) and added to the network as a stub for full-pipeline profiling.
-- https://www.axle.insure/
+Axle is the AI-native clearinghouse for insurance. Their infrastructure and AI agents automate complex insurance workflows for third parties, including verification, monitoring, and policy updates. Backed by Gradient, Y Combinator, and the founding team of Plaid, Axle serves Fortune 500 businesses like Rocket Mortgage, Avis, and Experian, helping them reduce risk and recover over $220M in potential losses.
+
+**Areas:** Insurance · AI · Automation · FinTech · Platform
+
+## Axle on APIs.io
+
+Everything profiled for Axle is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/axle/](https://apis.io/providers/axle/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Axle API](https://apis.io/apis/axle/axle-api/) — Axle API providing Ignition and token exchange operations
+- [Axle API API](https://apis.io/apis/axle/axle-api-api/) — Axle API API: 22 operations.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Axle Webhooks](https://apis.io/asyncapis/axle/axle-webhooks/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Account](https://apis.io/schemas/axle/axle-account/)
+- [Policy](https://apis.io/schemas/axle/axle-policy/)
+- [Policy Sandbox](https://apis.io/schemas/axle/axle-policy-sandbox/)
+- [Rule With Input](https://apis.io/schemas/axle/axle-rule-template-with-input/)
+- [User](https://apis.io/schemas/axle/axle-user/)
+- [ValidationConfig](https://apis.io/schemas/axle/axle-validation-config/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Axle Context](https://apis.io/jsonld/axle/axle-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Axle API Rules](https://apis.io/rules/axle/axle-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Axle Authentication](https://apis.io/security/axle/axle-authentication/)
+- [Axle Domain Security](https://apis.io/security/axle/axle-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.axle.insure/)
+- [Documentation](https://docs.axle.insure/)
+- [Getting started](https://docs.axle.insure/guides/quickstart)
+- [API reference](https://docs.axle.insure/llms.txt)
+- [Changelog](https://docs.axle.insure/changelog)
+- [Blog](https://www.axle.insure/blog)
+- [Trust centre](https://trust.axle.insure/)
+- [Privacy policy](https://www.axle.insure/legal/privacy-policy)
+- [Status](https://status.axle.insure)
+
+## API Evangelist rating
+
+**Kin Score 46.9** — developing · rubric 0.24.0 · scored 2026-10-29
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 45.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 39.5 |
+| Developer ergonomics | 50.0 |
+| Access clarity | 18.4 |
+
+**Agent readiness 48.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | — |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 21.3** — Insurance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/axle/](https://apis.io/providers/axle/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Axle: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/axle/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
